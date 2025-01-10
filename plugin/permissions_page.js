@@ -38,6 +38,7 @@ document.getElementById("grant").addEventListener("click", event => {
             "https://www.google.de/search*",
             "https://www.google.it/search*",
             "https://www.google.fr/search*",
+            "https://www.google.si/search*",
             "https://www.google.com.au/search*",
             "https://www.google.com.tw/search*",
             "https://www.google.nl/search*",
