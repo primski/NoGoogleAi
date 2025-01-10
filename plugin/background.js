@@ -8,6 +8,7 @@ chrome.webRequest.onBeforeRequest.addListener(
         // normal search has no udm and no tbm set
         if( (udm == "" || udm == null) && (tbm == "" || tbm == null) ){
           url.searchParams.set("udm", "14");
+          url.searchParams.set("num", "100");
           update_tab(url.href, info.tabId);
         }
     },
